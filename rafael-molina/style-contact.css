@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Righteous&display=swap');;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --White: #fff;
+    --Laranja: #EC7100;
+    --Lilas: #64278C;
+    --Roxo: #250F27;
+}
+
+body {
+    background: linear-gradient(45deg, #250F27, #64278C);
+    height: 100vh;    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+    min-height: 50px;
+}
+
+.box-img {
+    height: 100%;
+}
+
+.cabecalho-img {
+    max-width: 60px;
+    height: 100%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+
+.cabecalho-menu-item {
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+    color: #EC7100;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.cabecalho-menu-item:hover {
+    color: var(--White);
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+.conteudo {
+    border-top: 0.4px solid white;
+    margin-bottom: 40px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+strong {
+    color: #EC7100;
+}
+
+.conteudo-principal-escrito-texto {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: white;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #64278C;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #EC7100;
+    transition: 0.4s;
+
+}
+
+.conteudo-principal-img {
+    height: 430px;
+    padding: 40px;
+}
+
+.rodape {
+    border-top: 0.4px solid white;
+}
